@@ -1,12 +1,13 @@
 import io from 'socket.io-client';
 import util from 'util';
 
+const REACT_APP_Q_SERVER = 'https://fl-40-q-server.herokuapp.com';
 
 class Q {
   constructor(namespace){
     // ~~~ connect to namespace ~~~
     this.namespace = namespace;
-    this.serverConnection = io.connect(`${process.env.REACT_APP_Q_SERVER}/${namespace}`);
+    this.serverConnection = io.connect(`${REACT_APP_Q_SERVER}/${namespace}`);
     this.subArr = [];
   }
 

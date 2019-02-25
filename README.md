@@ -1,12 +1,12 @@
 Repos:
-Front end: https://github.com/asdFletcher/40-database-dashboard
-Q server heroku: https://github.com/asdFletcher/40-q-server
-API server heroku: https://github.com/asdFletcher/40-api-server
+- Front end: https://github.com/asdFletcher/40-database-dashboard
+- Q server heroku: https://github.com/asdFletcher/40-q-server
+- API server heroku: https://github.com/asdFletcher/40-api-server
 
 Deployed:
-Front end: d23h8a4d7egq4b.cloudfront.net
-Q server heroku: https://fl-40-q-server.herokuapp.com/
-API server heroku: https://fl-40-api.herokuapp.com/
+- Front end: d23h8a4d7egq4b.cloudfront.net
+- Q server heroku: https://fl-40-q-server.herokuapp.com/
+- API server heroku: https://fl-40-api.herokuapp.com/
 
 
 # Startup:
